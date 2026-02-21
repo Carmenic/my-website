@@ -1,0 +1,14 @@
+body {
+    background: url("Luffy.jpg");
+    background-size: contain;
+    background-repeat: repeat;
+}
+
+.ping {
+    background: rgba(44, 60, 80, 0.7);
+    padding: 180px;
+    width: 270px;
+    margin-left: 80px;
+    margin-top: 80px;
+    margin: 0 auto;
+}
