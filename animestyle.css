@@ -7,8 +7,8 @@ body {
 .ping {
     background: rgba(44, 60, 80, 0.7);
     padding: 180px;
-    width: 90px;
-    max-width: 2700px;
+    width: 100%;
+    max-width: 30%;
     margin-left: 80px;
     margin-top: 80px;
     margin: 0 auto;
@@ -17,4 +17,5 @@ body {
 img {
     max-width: 100%;
     height: auto;
+    display: block;
 }
