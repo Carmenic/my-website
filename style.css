@@ -8,9 +8,13 @@ body {
     background: rgba(44, 62, 80, 0.7);
     padding: 30px;
     width: 90px;
-    max-width: 350px;
+    
     margin-top: 90px;
     margin-left: 90px;
     margin: 0 auto;
 }
 
+img {
+    max-width: 100%;
+    height: auto;
+}
