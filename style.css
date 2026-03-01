@@ -6,6 +6,10 @@ body {
 }
 
 .index {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
     background: rgba(44, 62, 80, 0.7);
     padding: 30px;
     width: 100%;
