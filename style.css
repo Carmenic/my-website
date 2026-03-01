@@ -1,6 +1,7 @@
 body {
     background: url("Pretty.jpg");
-    
+    background-size: contain;
+    background-position: center;  
     background-repeat: repeat;
 }
 
@@ -12,10 +13,4 @@ body {
     margin-top: 90px;
     margin-left: 90px;
     margin: 0 auto;
-}
-
-img {
-    max-width: 100%;
-    height: auto;
-    display: block;
 }
