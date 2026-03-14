@@ -1,19 +1,63 @@
+html{
+    height: 100%;
+}
+
 body {
+    min-height: 100vh;
+    padding: 0;
+    margin: 0;
     background: url("animebackround.jpg");
     background-size: cover;
     background-position: center;  
     background-repeat: no-repeat;
+    background-color: rgba(0, 0, 0, 0.4);
+    background-blend-mode: multiply;
 }
 
 .index {
+    
+    padding: 10%;
+    width: 90%;
+    margin: 80px auto 40px;
+    padding: 40px 25px ;
+
+    background: rgba(44, 62, 80, 0.7);
+    border-radius: 1.5px;
+    text-align: center;
+
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    flex-direction: column;
     align-content: center;
-    background: rgba(44, 62, 80, 0.7);
-    padding: 10%;
-    width: 30%;
-    margin-top: 90px;
-    margin-left: 90px;
-    margin: 0 auto;
-}
+    gap: 1.5rem;
+    }
+
+    h1 {
+        font-family: Algerian, cursive;
+        margin: 0 0 1rem 0;
+        font-size: 2.8rem;
+    }
+
+    p {
+        margin: 0.5rem 0;
+        font-size: 1.3rem;
+        line-height: 1.4;
+    }
+
+    a {
+        color: bisque;
+        text-decoration: underline;
+        font-weight: bold;
+    }
+
+    @media (max-width: 480px) {
+        .index {
+            width: 94%;
+            padding: 30px 20px;
+            margin-top: 60px ;
+        }
+        
+        h1 {
+            font-size: 2.2rem;
+        }
+    }
