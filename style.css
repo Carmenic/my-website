@@ -1,8 +1,8 @@
 body {
     background: url("Pretty.jpg");
-    background-size: contain;
+    background-size: cover;
     background-position: center;  
-    background-repeat: repeat;
+    background-repeat: no-repeat;
 }
 
 .index {
@@ -11,8 +11,8 @@ body {
     justify-content: center;
     align-content: center;
     background: rgba(44, 62, 80, 0.7);
-    padding: 20%;
-    width: 90%;
+    padding: 10%;
+    width: 30%;
     margin-top: 90px;
     margin-left: 90px;
     margin: 0 auto;
